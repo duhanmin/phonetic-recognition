@@ -237,4 +237,3 @@ def test_main(isnot_test_path):
 if __name__ == '__main__':
     xunlianlo(path,test_path)
     # test_main(isnot_test_path)
-    # pass
