@@ -4,7 +4,7 @@
 # @Time    : 2017/12/29 14:05
 # @Author  : 杜函敏
 # @Email   : duhanmin@foxmail.com
-# @File    : 04 cnn 语音识别.py
+# @File    : 语音识别.py
 # @Software: PyCharm Community Edition
 
 import tensorflow as tf
