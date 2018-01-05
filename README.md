@@ -5,8 +5,8 @@ phonetic-recognition项目将一个维度的音频向量处理成了一个音频
 <br />
 # phonetic-recognition项目介绍<br />
 语音MFCCs特征处理：<br />
-![image](https://github.com/duhanmin/face-recognition/blob/master/images/3.png)<br /><br />
+![image](https://github.com/duhanmin/phonetic-recognition/blob/master/images/3.jpg)<br /><br />
 训练效果：<br />
-![image](https://github.com/duhanmin/face-recognition/blob/master/images/1.png)<br /><br />
+![image](https://github.com/duhanmin/phonetic-recognition/blob/master/images/1.jpg)<br /><br />
 识别效果：<br />
-![image](https://github.com/duhanmin/face-recognition/blob/master/images/2.png)<br /><br />
+![image](https://github.com/duhanmin/phonetic-recognition/blob/master/images/2.jpg)<br /><br />
