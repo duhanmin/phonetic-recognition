@@ -3,7 +3,7 @@
 phonetic-recognition项目将一个维度的音频向量处理成了一个音频特征矩阵<br />
 最后用cnn训练，后面过程与人脸识别类似
 <br />
-# phonetic-recognition项目介绍<br />
+# 计算处理与训练<br />
 语音MFCCs特征处理：<br />
 ![image](https://github.com/duhanmin/phonetic-recognition/blob/master/images/3.png)<br /><br />
 训练效果：<br />
