@@ -14,10 +14,10 @@ import os
 import numpy as np
 import sklearn.preprocessing
 
-path = r"F:/duhanmin_py/语音识别/data/"
+path = r"data/xunlian/"
 
-test_path = r"F:/duhanmin_py/语音识别/data/test_data/"
-isnot_test_path = r"F:\duhanmin_py\语音识别\data\isnot_test_path/"
+test_path = r"data/test_data/"
+isnot_test_path = r"data/isnot_test_path/"
 
 #使用one-hot编码，将离散特征的取值扩展到了欧式空间
 #全局one-hot编码空间
@@ -32,6 +32,7 @@ def def_one_hot(x):
     return y
 
 def read_wav_path(path):
+
     map_path, map_relative = [str(path) + str(x) for x in os.listdir(path) if os.path.isfile(str(path) + str(x))], [y for y in os.listdir(path)]
     return map_path, map_relative
 
@@ -235,5 +236,7 @@ def test_main(isnot_test_path):
             print("实际 :"+str(np.argmax(y_test[i]))+" ,预测: "+str(np.argmax(result))+" ,预测可靠度: "+str(np.max(haha)))
 
 if __name__ == '__main__':
+
     xunlianlo(path,test_path)
+
     # test_main(isnot_test_path)
