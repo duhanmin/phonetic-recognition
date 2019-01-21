@@ -14,10 +14,10 @@ import os
 import numpy as np
 import sklearn.preprocessing
 
-path = r"data/xunlian/"
-
-test_path = r"data/test_data/"
-isnot_test_path = r"data/isnot_test_path/"
+path_film = os.path.abspath('.')
+path = path_film + "/data/xunlian/"
+test_path = path_film + "/data/test_data/"
+isnot_test_path = path_film + "/data/isnot_test_path/"
 
 #使用one-hot编码，将离散特征的取值扩展到了欧式空间
 #全局one-hot编码空间
